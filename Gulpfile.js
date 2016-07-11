@@ -97,5 +97,5 @@ gulp.task("cordovaDist", function() {
 
 //gulp.task("default", ["jsHint", "dev-server"]);
 gulp.task("default", ["dev-server"]);
-gulp.task("compile", ["jsHint", "publish"])
+gulp.task("compile", ["jsHint", "publish"]);
 gulp.task("compileCordova", ["compile", "cordovaDist"]);

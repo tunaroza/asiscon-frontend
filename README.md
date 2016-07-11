@@ -24,11 +24,30 @@ Instalación de Cordova.
 1. Instalar cordava globalmente con "npm install -g cordova"
 2. Instalar plataformas y plugin para el proyecto de cordova "cordova prepare"
 
+Tareas Gulp
+------------
+En la consola de comandos (sin las comillas):
+1. 'gulp' -> Ejecutar servidor web de desarrollo
+2. 'gulp cordovaDev' -> Alistar los archivos rapidamente y sin comprimir para probarlos como aplicaciones mobiles
+3. 'gulp compileCordova' -> Alistar archivos comprimirdos para generar una versión para publicar
+
+
+Probar aplicación móvil
+------------------------
+
+Para dispositivos android ejecutar
+1. Preparar android
+    cordova prepare android
+2. Pompilar cordodva
+    cordova compile android
+3. Correr la aplicación
+    cordova run android
+
 Caracterizticas tecnicas
 ------------------------
 
  1. AngularJS
- 2. Bootstrap
+ 2. Mobile Angular UI
  3. Cordova
 
 

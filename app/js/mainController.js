@@ -1,6 +1,6 @@
 /*global angular*/
 
-var dependencies = ['ui.bootstrap', 'ngRoute'];
+var dependencies = ['mobile-angular-ui', 'ngRoute'];
 
 /*try {
     angular.module("ngMockE2E");
