@@ -26,7 +26,9 @@ Instalación de Cordova.
 
 Tareas Gulp
 ------------
+
 En la consola de comandos (sin las comillas):
+
 1. 'gulp' -> Ejecutar servidor web de desarrollo
 2. 'gulp cordovaDev' -> Alistar los archivos rapidamente y sin comprimir para probarlos como aplicaciones mobiles
 3. 'gulp compileCordova' -> Alistar archivos comprimirdos para generar una versión para publicar
@@ -36,11 +38,17 @@ Probar aplicación móvil
 ------------------------
 
 Para dispositivos android ejecutar
+
 1. Preparar android
+
     cordova prepare android
+
 2. Pompilar cordodva
+
     cordova compile android
+
 3. Correr la aplicación
+
     cordova run android
 
 Caracterizticas tecnicas
