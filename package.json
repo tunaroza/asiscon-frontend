@@ -1,0 +1,42 @@
+{
+  "name": "asiscon-frontend",
+  "version": "0.0.1",
+  "description": "Front-end web para la AsisCon",
+  "author": "Alejandro Tunaroza <alejandro.tun@gmail.com>",
+  "contributors": [
+    {
+      "name": "Alejandro Tunaroza",
+      "email": "alejandro.tunaroza@gmail.com"
+    }
+  ],
+  "scripts": {},
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tunaroza/asiscon-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tunaroza/asiscon-frontend/issues"
+  },
+  "keywords": [
+    "PMA",
+    "Nutrifami"
+  ],
+  "dependencies": {
+    "angular-mocks": "^1.5.7",
+    "gulp": "^3.9.1",
+    "gulp-closure-compiler": "^0.4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-delete-lines": "0.0.7",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.2"
+  },
+  "preferGlobal": true,
+  "private": false,
+  "license": "MIT"
+}

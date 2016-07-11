@@ -1,0 +1,30 @@
+{
+  "name": "asiscon-frontend",
+  "version": "0.0.1",
+  "homepage": "https://github.com/WFPColombia/nutrifami-webapp",
+  "description": "Front-end para la aplicación asiscon",
+  "main": "app/index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [],
+  "authors": [
+    "Alejandro Tunaroza<alejandro.tunaroza@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "angular-bootstrap": "^1.3.3",
+    "angular-route": "^1.5.7",
+    "angular-cookies": "^1.5.7",
+    "angular-mocks": "^1.5.7"
+  }
+}
